@@ -1,0 +1,30 @@
+
+orders:
+  DOBBY STOP:
+    command:
+      - echo
+      - hello world
+  DOBBY CHEMINEE:
+    command:
+      - echo
+      - Playing ambiance cheminee
+  DOBBY CASCADE:
+    command:
+      - echo
+      - Playing ambiance cascade
+  DOBBY FORET:
+    command:
+      - echo
+      - Playing ambiance foret
+  DOBBY FEERIQUE:
+    command:
+      - echo
+      - Playing ambiance feerique
+  DOBBY AMBIANCE CHEMINEE:
+    alias: "DOBBY CHEMINEE"
+  DOBBY AMBIANCE FORET:
+    alias: "DOBBY FORET"
+  DOBBY AMBIANCE CASCADE:
+    alias: "DOBBY CASCADE"
+  DOBBY AMBIANCE FEERIQUE:
+    alias: "DOBBY FEERIQUE"
